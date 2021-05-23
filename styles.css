@@ -1,0 +1,32 @@
+body {
+  background: darkred;
+}
+
+#searchbox > input {
+  padding: 4px;
+  border-radius: 5px;
+}
+#searchbox {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.meal_item {
+  display: flex;
+  flex-direction: column;
+}
+
+.meal_item img {
+  height: 300px;
+  width: 300px;
+}
+
+.meal_item > h3 {
+  color: #fff;
+  align-self: center;
+}
+
+#meals_list {
+  display: flex;
+  flex-wrap: wrap;
+}

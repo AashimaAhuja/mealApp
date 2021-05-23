@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  
+  <div class="container">
+    <div id="searchbox">
+      <input id='search_input' placeholder='Search meal'/>
+      <button id='search_btn'>Search</button>
+    </div>
+    <li id='meals_list'>
+    </li>
+    <div id='meal_details'>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+<template id='meal_item_tmpl'>
+    <ul class='meal_item'>
+      <img src='url' alt='meal-img' />
+      <h3>Meal Name</h3>
+    </ul>
+</template>
+<template id='meal_details_tmpl'>
+      <img class="img"        src='https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg' alt='meal-img' />
+      <h3 class='name'>Meal Name</h3>
+      <div id="category"></div>
+      <div id="instructions"></div>
+      <li id="ingredients-list"></li>
+</template>
+
+</html>
